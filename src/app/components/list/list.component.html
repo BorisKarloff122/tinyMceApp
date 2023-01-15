@@ -1,0 +1,7 @@
+<div class="container" *ngIf="list.length > 0 else empty">
+  <div *ngFor="let dataElem of list" [innerHTML]="dataElem" class="html-container"></div>
+</div>
+
+<ng-template #empty>
+  <div class="container">No data</div>
+</ng-template>

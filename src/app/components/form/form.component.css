@@ -1,0 +1,9 @@
+.button-row{
+  margin: 20px auto;
+  max-width:1200px;
+}
+
+button{
+  font-size:18px;
+  padding: 0 10px;
+}
